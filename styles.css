@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+   
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 400px;
+    height: 600px;
+    border-radius: 5px;
+    background-color:  hsl(0, 0%, 12%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background-color: white;
+}
+.profile-image img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+
+}
+.introduction h1{
+    color: hsl(0, 0%, 100%);
+    text-align: justify;
+    margin-top: 15px;
+    padding: 0px;
+    
+}
+.introduction p{
+    text-align: justify;
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+.introduction h3{
+    margin-top: -2px;
+    padding: 0px;
+    text-align: center;
+    color: hsl(75, 94%, 57%);
+}
+.link{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: hsl(0, 0%, 20%);
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.link a{
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+.bottom-section{
+    width: 300px;
+    height: 280px;
+    position: relative;
+    top: 55px;
+    display: flex;
+    
+    flex-direction: column;
+   justify-content: space-between;
+    align-items: center;
+}
+    
